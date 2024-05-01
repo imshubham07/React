@@ -1,8 +1,14 @@
+import Chai from "./chai"
+
 function App() {
   
 
   return (
-    <h1>Code with react through vite | Shubham kumar Dubey| I am learning React with Hitesh Chaudhary</h1>
+    <>
+   <Chai />
+   <h1>Learning React in 21 days </h1>
+   <p>Lorem ipsum dolor sit amet.</p>
+    </>
   )
 }
 
