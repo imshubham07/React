@@ -1,5 +1,6 @@
 // import React from "react";
 
+// eslint-disable-next-line react/prop-types
 export function Card({username, btnText = "click here"}) {
   console.log(username);
   return (
