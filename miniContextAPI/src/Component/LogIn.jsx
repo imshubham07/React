@@ -6,9 +6,10 @@ export function LogIn() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('') 
 
-    const {setUser} =  UserContext(UserContext)
-    const handleSubmit = () => {
-
+    const {setUser} =  useContext(UserContext)
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        setUser({username, password})
     }
     return (
        
