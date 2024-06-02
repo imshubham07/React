@@ -1,4 +1,4 @@
-import {Container, LogoutBtn, Logo} from "'../index.js"
+import {Container, LogoutBtn, Logo} from "../index.js"
 import { Link } from "react-router-dom"
 import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
